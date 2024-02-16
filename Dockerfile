@@ -1,4 +1,4 @@
-FROM java:11-jdk
+FROM java:11-jre-slim
 RUN mkdir /app
 WORKDIR /app
 COPY target/docker-0.0.1-SNAPSHOT.jar /app
