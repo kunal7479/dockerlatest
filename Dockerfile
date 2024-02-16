@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM adoptopenjdk/openjdk11:alpine-jre
 RUN mkdir /app
 WORKDIR /app
 COPY target/docker-0.0.1-SNAPSHOT.jar /app
